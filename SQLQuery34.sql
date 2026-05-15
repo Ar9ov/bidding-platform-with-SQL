@@ -1,0 +1,8 @@
+SELECT TOP (1000) [ItemID]
+      ,[Title]
+      ,[Description]
+      ,[SellerID]
+      ,[CategoryID]
+      ,[ConditionID]
+      ,[CreatedAt]
+  FROM [t3].[dbo].[Items]
